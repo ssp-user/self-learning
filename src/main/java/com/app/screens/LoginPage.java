@@ -8,6 +8,6 @@ public class LoginPage {
 // - https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin
 	
 	public void login(){	
-		//driver.findElement(By.id("account")).click();		
+		driver.findElement(By.id("account")).click();		
 	}
 }
