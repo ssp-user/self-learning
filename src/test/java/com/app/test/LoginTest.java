@@ -11,7 +11,13 @@ public class LoginTest {
 		LoginPage lip = new LoginPage();
 		lip.launchBrowser();
 		lip.login();
+		lip.quitBrowser();
 		
 	}
+	
+	@Test
+	public void secondTestCase(){
+		System.out.println("************************Second Test Case************************");
+	}	
 
 }

@@ -25,4 +25,9 @@ public class LoginPage {
 		driver.findElement(By.id("password")).sendKeys(new String(decodeBytes));
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 	}
+	
+	public void quitBrowser(){
+		System.out.println();
+		driver.close();
+	}	
 }
