@@ -3,3 +3,5 @@ target/
 *.class
 /target/*
 target/*
+target/classes/META-INF/maven/com.learning.self/com.self.learning/pom.properties
+target/classes/META-INF/maven/com.learning.self/com.self.learning/pom.xml
