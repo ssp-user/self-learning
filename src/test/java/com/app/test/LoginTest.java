@@ -6,7 +6,7 @@ import com.app.screens.LoginPage;
 
 public class LoginTest {
 	
-	@Test
+	@Test(groups = {"sanity","regression"})
 	public void loginToLinkedIn(){
 		LoginPage lip = new LoginPage();
 		lip.launchBrowser();
@@ -15,9 +15,9 @@ public class LoginTest {
 		
 	}
 	
-	@Test
+	@Test(groups = {"regression"}) 
 	public void secondTestCase(){
-		System.out.println("************************Second Test Case************************");
+		System.out.println("************************Login File - Second Test Case************************");
 	}	
 
 }
