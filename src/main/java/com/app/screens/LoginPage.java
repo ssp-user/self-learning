@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.google.common.base.Function;
 
+
 public class LoginPage {
 	WebDriver driver;
 	Wait wait;
