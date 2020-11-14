@@ -33,6 +33,9 @@ public class Test {
     }
     
     public static void main(String[] args) {
+    	int i = 10;
+    	int j = i/2;
+    	System.out.println(i + "   " + j);
         String[] names1 = new String[] {"Ava", "Emma", "Olivia"};
         String[] names2 = new String[] {"Olivia", "Sophia", "Emma"};
         System.out.println(String.join(", ", Test.uniqueNames(names1, names2))); // should print Ava, Emma, Olivia, Sophia
