@@ -23,7 +23,6 @@ public class StringTest {
 			i--;
 		}
 		return reverseString;
-
 	}
 
 }
