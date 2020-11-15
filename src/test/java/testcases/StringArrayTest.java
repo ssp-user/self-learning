@@ -16,6 +16,7 @@ public class StringArrayTest {
 			System.out.println(str1[i]);
 		}
 		System.out.println("After sorting index " + Arrays.binarySearch(str1, "Akhilesh"));
+		System.out.println("After sorting index " + Arrays.binarySearch(str1, "Vishal"));		
 	}
 
 }
