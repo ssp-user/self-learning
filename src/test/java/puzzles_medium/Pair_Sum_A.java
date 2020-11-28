@@ -1,6 +1,6 @@
 package puzzles_medium;
 
-public class Pair_Sum {
+public class Pair_Sum_A {
 
 	public static void main(String[] args) {
 		Integer arr[] = {8,7,2,5,3,1};
