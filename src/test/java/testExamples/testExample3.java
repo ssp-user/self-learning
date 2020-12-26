@@ -2,9 +2,10 @@ package testExamples;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
-public class testExample1 {
+public class testExample3 {
 
 	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<Integer>();
@@ -17,9 +18,11 @@ public class testExample1 {
 		for (Integer integer : list) {
 			System.out.println(integer);
 		}
-		Collections.sort(list, new sortLogic());
-//		Collections.sort(list);// to print in increasing order
-//		Collections.sort(list,Collections.reverseOrder()); // To print in reverse order
+		Collections.sort(list, (o1,o2)-> {
+				if (o1%10 > o2%10)
+					return 0;
+				return -1;
+		});
 		System.out.println("List after sorting");
 		for (Integer integer : list) {
 			System.out.println(integer);
