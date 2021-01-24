@@ -31,6 +31,7 @@ public class EvenOdd {
 		outputArrayList.addAll(oddSet);
 		System.out.println("input array is "+ inputArrayList);		
 		System.out.println("output array is "+ outputArrayList);
+		outputArrayList.stream().forEach(ele-> System.out.println(ele));
 		for (Integer integer : outputArrayList) {
 			System.out.println(integer);
 		}
