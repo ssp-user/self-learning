@@ -28,7 +28,7 @@ public class FirstRepeatingElement {
 			System.out.println("Frequency of "+ integer + " in array is "+ Collections.frequency(arrLst, integer));
 			if (Collections.frequency(arrLst, integer) > 1) {
 				System.out.println("First repeating element is "+ integer);
-				break;				
+				break;	//-UPDATE-			
 			}
 		}		
 	}
