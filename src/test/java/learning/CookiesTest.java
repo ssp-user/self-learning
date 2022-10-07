@@ -13,7 +13,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class CookiesTest {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver","C:\\Setup\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver","C:\\Setup\\ChromeDriver\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","//Users//vishaljoshi//Documents//git//self-learning//chromeDriver//v105//chromedriver");		
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.w3schools.com/"); //Linkedin URL for testing
 		driver.manage().window().maximize();	
