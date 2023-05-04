@@ -15,6 +15,7 @@ public class WeatherAPI {
 		map.put("days", "1");
 		Response resGet = io.restassured.RestAssured.given().queryParams(map).get(endPoint);
 		System.out.println("resGet.getBody().asPrettyString() --> \n" + resGet.getBody().asPrettyString());
+		
 	}
 
 }
